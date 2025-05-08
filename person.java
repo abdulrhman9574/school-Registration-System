@@ -7,7 +7,6 @@ public class person {
     
     public abstract class Person {
     protected String name;
-    protected int id;
     protected int age;
     public Person(String name, int age) {
         this.name = name;
@@ -29,16 +28,6 @@ public class person {
             this.age = age;
         }
 
-  
-
-  
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
    
     public abstract void information();
