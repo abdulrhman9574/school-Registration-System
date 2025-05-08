@@ -29,7 +29,7 @@ public class ReportCard {
     //التقرير النهائي
     public void displayReport(){
         System.out.println("Report card:");
-        System.out.println("Student:"+student.getName()+"\nId:"+student.getId());
+        System.out.println("Student:"+student.getname()+"\nId:"+student.getid());
         System.out.println("Grade:"+grade);
         if(grade==-1){
             System.out.println("Invalid entered");
