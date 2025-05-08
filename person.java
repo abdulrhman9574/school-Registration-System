@@ -1,13 +1,11 @@
 
 package com.mycompany.school;
 
-
-public abstract class person {
-
     
     public abstract class Person {
     protected String name;
     protected int age;
+        
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
@@ -16,6 +14,7 @@ public abstract class person {
     public String getName() {
         return name;
     }
+        
   public void setName(String name) {
         this.name = name;
     }
@@ -34,4 +33,4 @@ public abstract class person {
 
 }
 
-}
+
