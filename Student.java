@@ -11,8 +11,9 @@ public class Student extends Person {
 
     
     public ArrayList<Subject> SubbedSubjects = new ArrayList<>(); //Subject is a data type to get access for more data types like int and string, you can use the id or subject name in brief
-    public Student(String name, int age){ 
+    public Student(String name, int age, int id){ 
         super (name, age);//(Super Class's Constructor)
+        this.id=id;
     }
     public void addSubject(Subject subject){ //Adding method of the arraylist (Setter)
         SubbedSubjects.add(subject);
