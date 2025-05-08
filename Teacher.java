@@ -55,7 +55,7 @@ public class Teacher extends Person {
       public void addTeacher (String Teacher) {
           teacherList.add(Teacher);
       }
-//      method do display the list of Teachers    
+//      method to display the list of Teachers    
        public void displayTeacherList() {
            System.out.println(teacherList);
        }
