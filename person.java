@@ -2,7 +2,7 @@
 package com.mycompany.school;
 
 
-public class person {
+public abstract class person {
 
     
     public abstract class Person {
