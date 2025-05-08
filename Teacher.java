@@ -61,7 +61,7 @@ public class Teacher extends Person {
     public void information(){
         System.out.println("Name: " + getName());
         System.out.println("Age: " + getAge());
-        System.out.println("department: " + department);
+        System.out.println("department: " + getDepartment());
         System.out.println("Salary: " + getSalary());
     }
 }
