@@ -1,4 +1,4 @@
-package com.mycompany.school;
+package finalproject;
 
 import java.util.ArrayList;
 
@@ -25,7 +25,7 @@ public class Student extends Person {
 
     
     @Override
-    public String information(){ //The person's abstract method
+    public void information(){ //The person's abstract method
         
     String info = "Student name : "+getName()+" Student's ID : "+getId();
     info+=" SubbedSubjects : \n";
@@ -34,7 +34,7 @@ public class Student extends Person {
         for (int i=0;i<SubbedSubjects.size();i++){
             info+= "- "+SubbedSubjects.get(i).getSubjectName();}
         
-        return info;}}
+        System.out.println(info);;}}
 
     
     
